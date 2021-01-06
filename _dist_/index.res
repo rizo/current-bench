@@ -1,5 +1,6 @@
 let fetchOptions = ReasonUrql.Client.FetchOpts(
   Fetch.RequestInit.make(
+    ~mode=Fetch.CORS,
     ~headers=Fetch.HeadersInit.make({"X-Hasura-Admin-Secret": "<GRAPHQL_SECRET>"}),
     (),
   ),

@@ -1037,7 +1037,7 @@
       ]
     },
     "_dist_/index.bs.js": {
-      "bytes": 1269,
+      "bytes": 1276,
       "imports": [
         {
           "path": "__snowpack__/env.js"
@@ -1261,10 +1261,10 @@
           "bytesInOutput": 4030
         },
         "_dist_/index.bs.js": {
-          "bytesInOutput": 347
+          "bytesInOutput": 342
         }
       },
-      "bytes": 447286
+      "bytes": 447281
     },
     "../node_modules/.cache/snowpack/~~bundle~~/_dist_/index.bs.css": {
       "imports": [],
