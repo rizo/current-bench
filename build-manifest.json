@@ -1,0 +1,1279 @@
+{
+  "inputs": {
+    "__snowpack__/env.js": {
+      "bytes": 73,
+      "imports": []
+    },
+    "web_modules/common/_commonjsHelpers-668e6127.js": {
+      "bytes": 451,
+      "imports": []
+    },
+    "web_modules/common/index-4f86a9c5.js": {
+      "bytes": 8631,
+      "imports": [
+        {
+          "path": "web_modules/common/_commonjsHelpers-668e6127.js"
+        }
+      ]
+    },
+    "web_modules/common/urql-core-2432c79a.js": {
+      "bytes": 141341,
+      "imports": []
+    },
+    "web_modules/common/urql.es-b6f946e0.js": {
+      "bytes": 9425,
+      "imports": [
+        {
+          "path": "web_modules/common/index-4f86a9c5.js"
+        },
+        {
+          "path": "web_modules/common/urql-core-2432c79a.js"
+        }
+      ]
+    },
+    "web_modules/urql.js": {
+      "bytes": 787,
+      "imports": [
+        {
+          "path": "web_modules/common/_commonjsHelpers-668e6127.js"
+        },
+        {
+          "path": "web_modules/common/index-4f86a9c5.js"
+        },
+        {
+          "path": "web_modules/common/urql-core-2432c79a.js"
+        },
+        {
+          "path": "web_modules/common/urql.es-b6f946e0.js"
+        }
+      ]
+    },
+    "web_modules/common/curry-e82ff6fb.js": {
+      "bytes": 13896,
+      "imports": []
+    },
+    "web_modules/common/caml_option-10599aa8.js": {
+      "bytes": 1393,
+      "imports": []
+    },
+    "web_modules/bs-fetch/src/Fetch.bs.js": {
+      "bytes": 10033,
+      "imports": [
+        {
+          "path": "web_modules/common/curry-e82ff6fb.js"
+        },
+        {
+          "path": "web_modules/common/caml_option-10599aa8.js"
+        }
+      ]
+    },
+    "web_modules/react.js": {
+      "bytes": 1639,
+      "imports": [
+        {
+          "path": "web_modules/common/_commonjsHelpers-668e6127.js"
+        },
+        {
+          "path": "web_modules/common/index-4f86a9c5.js"
+        },
+        {
+          "path": "web_modules/common/index-4f86a9c5.js"
+        }
+      ]
+    },
+    "web_modules/reason-react/src/legacy/ReactDOMRe.bs.js": {
+      "bytes": 129781,
+      "imports": [
+        {
+          "path": "web_modules/common/caml_option-10599aa8.js"
+        },
+        {
+          "path": "web_modules/common/_commonjsHelpers-668e6127.js"
+        },
+        {
+          "path": "web_modules/common/index-4f86a9c5.js"
+        }
+      ]
+    },
+    "web_modules/common/belt_Option-4aba43c8.js": {
+      "bytes": 2084,
+      "imports": [
+        {
+          "path": "web_modules/common/curry-e82ff6fb.js"
+        },
+        {
+          "path": "web_modules/common/caml_option-10599aa8.js"
+        }
+      ]
+    },
+    "web_modules/common/Types.bs-1e3b3c03.js": {
+      "bytes": 2109,
+      "imports": [
+        {
+          "path": "web_modules/common/caml_option-10599aa8.js"
+        },
+        {
+          "path": "web_modules/common/belt_Option-4aba43c8.js"
+        }
+      ]
+    },
+    "web_modules/reason-urql/src/Client.bs.js": {
+      "bytes": 14591,
+      "imports": [
+        {
+          "path": "web_modules/common/curry-e82ff6fb.js"
+        },
+        {
+          "path": "web_modules/common/caml_option-10599aa8.js"
+        },
+        {
+          "path": "web_modules/common/belt_Option-4aba43c8.js"
+        },
+        {
+          "path": "web_modules/common/urql-core-2432c79a.js"
+        },
+        {
+          "path": "web_modules/common/Types.bs-1e3b3c03.js"
+        }
+      ]
+    },
+    "web_modules/bs-platform/lib/es6/curry.js": {
+      "bytes": 214,
+      "imports": [
+        {
+          "path": "web_modules/common/curry-e82ff6fb.js"
+        }
+      ]
+    },
+    "web_modules/common/caml_primitive-28678202.js": {
+      "bytes": 692,
+      "imports": []
+    },
+    "web_modules/common/caml_string-e1573ee8.js": {
+      "bytes": 3037,
+      "imports": []
+    },
+    "web_modules/common/caml_js_exceptions-03b0c096.js": {
+      "bytes": 584,
+      "imports": []
+    },
+    "web_modules/common/string-07c5713c.js": {
+      "bytes": 14204,
+      "imports": [
+        {
+          "path": "web_modules/common/curry-e82ff6fb.js"
+        },
+        {
+          "path": "web_modules/common/caml_primitive-28678202.js"
+        },
+        {
+          "path": "web_modules/common/caml_string-e1573ee8.js"
+        },
+        {
+          "path": "web_modules/common/caml_js_exceptions-03b0c096.js"
+        }
+      ]
+    },
+    "web_modules/bs-platform/lib/es6/string.js": {
+      "bytes": 802,
+      "imports": [
+        {
+          "path": "web_modules/common/curry-e82ff6fb.js"
+        },
+        {
+          "path": "web_modules/common/caml_primitive-28678202.js"
+        },
+        {
+          "path": "web_modules/common/caml_string-e1573ee8.js"
+        },
+        {
+          "path": "web_modules/common/caml_js_exceptions-03b0c096.js"
+        },
+        {
+          "path": "web_modules/common/string-07c5713c.js"
+        }
+      ]
+    },
+    "web_modules/common/js_dict-e527c3ef.js": {
+      "bytes": 1435,
+      "imports": [
+        {
+          "path": "web_modules/common/caml_option-10599aa8.js"
+        }
+      ]
+    },
+    "web_modules/bs-platform/lib/es6/js_dict.js": {
+      "bytes": 204,
+      "imports": [
+        {
+          "path": "web_modules/common/caml_option-10599aa8.js"
+        },
+        {
+          "path": "web_modules/common/js_dict-e527c3ef.js"
+        }
+      ]
+    },
+    "web_modules/bs-platform/lib/es6/js_json.js": {
+      "bytes": 3397,
+      "imports": [
+        {
+          "path": "web_modules/common/caml_option-10599aa8.js"
+        }
+      ]
+    },
+    "web_modules/common/belt_Array-3502e4d7.js": {
+      "bytes": 13487,
+      "imports": [
+        {
+          "path": "web_modules/common/curry-e82ff6fb.js"
+        },
+        {
+          "path": "web_modules/common/caml_primitive-28678202.js"
+        },
+        {
+          "path": "web_modules/common/caml_option-10599aa8.js"
+        }
+      ]
+    },
+    "web_modules/common/belt_SortArray-969915da.js": {
+      "bytes": 2888,
+      "imports": [
+        {
+          "path": "web_modules/common/belt_Array-3502e4d7.js"
+        }
+      ]
+    },
+    "web_modules/common/belt_List-6e946761.js": {
+      "bytes": 23440,
+      "imports": [
+        {
+          "path": "web_modules/common/curry-e82ff6fb.js"
+        },
+        {
+          "path": "web_modules/common/caml_option-10599aa8.js"
+        },
+        {
+          "path": "web_modules/common/belt_Array-3502e4d7.js"
+        },
+        {
+          "path": "web_modules/common/belt_SortArray-969915da.js"
+        }
+      ]
+    },
+    "web_modules/bs-platform/lib/es6/belt_List.js": {
+      "bytes": 1631,
+      "imports": [
+        {
+          "path": "web_modules/common/curry-e82ff6fb.js"
+        },
+        {
+          "path": "web_modules/common/caml_primitive-28678202.js"
+        },
+        {
+          "path": "web_modules/common/caml_option-10599aa8.js"
+        },
+        {
+          "path": "web_modules/common/belt_Array-3502e4d7.js"
+        },
+        {
+          "path": "web_modules/common/belt_SortArray-969915da.js"
+        },
+        {
+          "path": "web_modules/common/belt_List-6e946761.js"
+        }
+      ]
+    },
+    "web_modules/bs-platform/lib/es6/belt_Array.js": {
+      "bytes": 1239,
+      "imports": [
+        {
+          "path": "web_modules/common/curry-e82ff6fb.js"
+        },
+        {
+          "path": "web_modules/common/caml_primitive-28678202.js"
+        },
+        {
+          "path": "web_modules/common/caml_option-10599aa8.js"
+        },
+        {
+          "path": "web_modules/common/belt_Array-3502e4d7.js"
+        }
+      ]
+    },
+    "web_modules/common/caml_format-7d058e3e.js": {
+      "bytes": 28735,
+      "imports": [
+        {
+          "path": "web_modules/common/caml_primitive-28678202.js"
+        }
+      ]
+    },
+    "web_modules/common/pervasives-9228bf61.js": {
+      "bytes": 23315,
+      "imports": [
+        {
+          "path": "web_modules/common/curry-e82ff6fb.js"
+        },
+        {
+          "path": "web_modules/common/caml_string-e1573ee8.js"
+        },
+        {
+          "path": "web_modules/common/caml_format-7d058e3e.js"
+        },
+        {
+          "path": "web_modules/common/caml_js_exceptions-03b0c096.js"
+        }
+      ]
+    },
+    "web_modules/bs-platform/lib/es6/pervasives.js": {
+      "bytes": 1845,
+      "imports": [
+        {
+          "path": "web_modules/common/curry-e82ff6fb.js"
+        },
+        {
+          "path": "web_modules/common/caml_primitive-28678202.js"
+        },
+        {
+          "path": "web_modules/common/pervasives-9228bf61.js"
+        },
+        {
+          "path": "web_modules/common/caml_string-e1573ee8.js"
+        },
+        {
+          "path": "web_modules/common/caml_format-7d058e3e.js"
+        },
+        {
+          "path": "web_modules/common/caml_js_exceptions-03b0c096.js"
+        }
+      ]
+    },
+    "web_modules/common/belt_internalAVLtree-604a4135.js": {
+      "bytes": 16120,
+      "imports": [
+        {
+          "path": "web_modules/common/curry-e82ff6fb.js"
+        },
+        {
+          "path": "web_modules/common/caml_option-10599aa8.js"
+        }
+      ]
+    },
+    "web_modules/bs-platform/lib/es6/belt_MapInt.js": {
+      "bytes": 11038,
+      "imports": [
+        {
+          "path": "web_modules/common/curry-e82ff6fb.js"
+        },
+        {
+          "path": "web_modules/common/caml_primitive-28678202.js"
+        },
+        {
+          "path": "web_modules/common/caml_option-10599aa8.js"
+        },
+        {
+          "path": "web_modules/common/belt_Array-3502e4d7.js"
+        },
+        {
+          "path": "web_modules/common/belt_SortArray-969915da.js"
+        },
+        {
+          "path": "web_modules/common/belt_internalAVLtree-604a4135.js"
+        }
+      ]
+    },
+    "web_modules/bs-platform/lib/es6/belt_Option.js": {
+      "bytes": 374,
+      "imports": [
+        {
+          "path": "web_modules/common/curry-e82ff6fb.js"
+        },
+        {
+          "path": "web_modules/common/caml_option-10599aa8.js"
+        },
+        {
+          "path": "web_modules/common/belt_Option-4aba43c8.js"
+        }
+      ]
+    },
+    "web_modules/bs-platform/lib/es6/belt_SetInt.js": {
+      "bytes": 20997,
+      "imports": [
+        {
+          "path": "web_modules/common/curry-e82ff6fb.js"
+        },
+        {
+          "path": "web_modules/common/caml_option-10599aa8.js"
+        }
+      ]
+    },
+    "web_modules/bs-platform/lib/es6/caml_option.js": {
+      "bytes": 204,
+      "imports": [
+        {
+          "path": "web_modules/common/caml_option-10599aa8.js"
+        }
+      ]
+    },
+    "web_modules/bs-platform/lib/es6/belt_MapString.js": {
+      "bytes": 11044,
+      "imports": [
+        {
+          "path": "web_modules/common/curry-e82ff6fb.js"
+        },
+        {
+          "path": "web_modules/common/caml_primitive-28678202.js"
+        },
+        {
+          "path": "web_modules/common/caml_option-10599aa8.js"
+        },
+        {
+          "path": "web_modules/common/belt_Array-3502e4d7.js"
+        },
+        {
+          "path": "web_modules/common/belt_SortArray-969915da.js"
+        },
+        {
+          "path": "web_modules/common/belt_internalAVLtree-604a4135.js"
+        }
+      ]
+    },
+    "web_modules/reason-urql/src/hooks/Hooks.bs.js": {
+      "bytes": 12023,
+      "imports": [
+        {
+          "path": "web_modules/common/curry-e82ff6fb.js"
+        },
+        {
+          "path": "web_modules/common/caml_option-10599aa8.js"
+        },
+        {
+          "path": "web_modules/common/belt_Option-4aba43c8.js"
+        },
+        {
+          "path": "web_modules/common/_commonjsHelpers-668e6127.js"
+        },
+        {
+          "path": "web_modules/common/index-4f86a9c5.js"
+        },
+        {
+          "path": "web_modules/common/urql-core-2432c79a.js"
+        },
+        {
+          "path": "web_modules/common/urql.es-b6f946e0.js"
+        },
+        {
+          "path": "web_modules/common/Types.bs-1e3b3c03.js"
+        }
+      ]
+    },
+    "web_modules/reason-react/src/ReasonReactRouter.bs.js": {
+      "bytes": 4564,
+      "imports": [
+        {
+          "path": "web_modules/common/curry-e82ff6fb.js"
+        },
+        {
+          "path": "web_modules/common/_commonjsHelpers-668e6127.js"
+        },
+        {
+          "path": "web_modules/common/index-4f86a9c5.js"
+        }
+      ]
+    },
+    "web_modules/common/array-6289d183.js": {
+      "bytes": 12166,
+      "imports": [
+        {
+          "path": "web_modules/common/curry-e82ff6fb.js"
+        },
+        {
+          "path": "web_modules/common/caml_js_exceptions-03b0c096.js"
+        }
+      ]
+    },
+    "web_modules/bs-platform/lib/es6/array.js": {
+      "bytes": 526,
+      "imports": [
+        {
+          "path": "web_modules/common/curry-e82ff6fb.js"
+        },
+        {
+          "path": "web_modules/common/array-6289d183.js"
+        },
+        {
+          "path": "web_modules/common/caml_js_exceptions-03b0c096.js"
+        }
+      ]
+    },
+    "_dist_/Rx.bs.js": {
+      "bytes": 1229,
+      "imports": [
+        {
+          "path": "web_modules/bs-platform/lib/es6/array.js"
+        },
+        {
+          "path": "web_modules/bs-platform/lib/es6/curry.js"
+        },
+        {
+          "path": "web_modules/bs-platform/lib/es6/pervasives.js"
+        },
+        {
+          "path": "web_modules/bs-platform/lib/es6/caml_option.js"
+        }
+      ]
+    },
+    "web_modules/common/Css_AtomicTypes.bs-d7861922.js": {
+      "bytes": 51434,
+      "imports": [
+        {
+          "path": "web_modules/common/curry-e82ff6fb.js"
+        },
+        {
+          "path": "web_modules/common/pervasives-9228bf61.js"
+        },
+        {
+          "path": "web_modules/common/string-07c5713c.js"
+        },
+        {
+          "path": "web_modules/common/belt_List-6e946761.js"
+        }
+      ]
+    },
+    "web_modules/common/Css_Legacy_Core.bs-9e354793.js": {
+      "bytes": 96257,
+      "imports": [
+        {
+          "path": "web_modules/common/curry-e82ff6fb.js"
+        },
+        {
+          "path": "web_modules/common/array-6289d183.js"
+        },
+        {
+          "path": "web_modules/common/caml_option-10599aa8.js"
+        },
+        {
+          "path": "web_modules/common/Css_AtomicTypes.bs-d7861922.js"
+        },
+        {
+          "path": "web_modules/common/string-07c5713c.js"
+        },
+        {
+          "path": "web_modules/common/belt_List-6e946761.js"
+        },
+        {
+          "path": "web_modules/common/js_dict-e527c3ef.js"
+        },
+        {
+          "path": "web_modules/common/belt_Option-4aba43c8.js"
+        }
+      ]
+    },
+    "web_modules/bs-css-emotion/src/Css.bs.js": {
+      "bytes": 80718,
+      "imports": [
+        {
+          "path": "web_modules/common/curry-e82ff6fb.js"
+        },
+        {
+          "path": "web_modules/common/caml_primitive-28678202.js"
+        },
+        {
+          "path": "web_modules/common/array-6289d183.js"
+        },
+        {
+          "path": "web_modules/common/pervasives-9228bf61.js"
+        },
+        {
+          "path": "web_modules/common/caml_string-e1573ee8.js"
+        },
+        {
+          "path": "web_modules/common/caml_format-7d058e3e.js"
+        },
+        {
+          "path": "web_modules/common/caml_js_exceptions-03b0c096.js"
+        },
+        {
+          "path": "web_modules/common/caml_option-10599aa8.js"
+        },
+        {
+          "path": "web_modules/common/Css_AtomicTypes.bs-d7861922.js"
+        },
+        {
+          "path": "web_modules/common/string-07c5713c.js"
+        },
+        {
+          "path": "web_modules/common/belt_Array-3502e4d7.js"
+        },
+        {
+          "path": "web_modules/common/belt_SortArray-969915da.js"
+        },
+        {
+          "path": "web_modules/common/belt_List-6e946761.js"
+        },
+        {
+          "path": "web_modules/common/js_dict-e527c3ef.js"
+        },
+        {
+          "path": "web_modules/common/Css_Legacy_Core.bs-9e354793.js"
+        },
+        {
+          "path": "web_modules/common/belt_Option-4aba43c8.js"
+        }
+      ]
+    },
+    "_dist_/Sx.bs.js": {
+      "bytes": 70809,
+      "imports": [
+        {
+          "path": "web_modules/bs-css-emotion/src/Css.bs.js"
+        },
+        {
+          "path": "web_modules/bs-platform/lib/es6/array.js"
+        },
+        {
+          "path": "web_modules/bs-platform/lib/es6/curry.js"
+        },
+        {
+          "path": "web_modules/bs-platform/lib/es6/caml_option.js"
+        }
+      ]
+    },
+    "_dist_/Icon.bs.js": {
+      "bytes": 23767,
+      "imports": [
+        {
+          "path": "web_modules/react.js"
+        },
+        {
+          "path": "_dist_/Sx.bs.js"
+        }
+      ]
+    },
+    "_dist_/Styles.bs.js": {
+      "bytes": 1436,
+      "imports": [
+        {
+          "path": "web_modules/bs-platform/lib/es6/curry.js"
+        },
+        {
+          "path": "_dist_/Sx.bs.js"
+        }
+      ]
+    },
+    "_dist_/Prelude.bs.js": {
+      "bytes": 661,
+      "imports": [
+        {
+          "path": "_dist_/Sx.bs.js"
+        }
+      ]
+    },
+    "web_modules/bs-platform/lib/es6/caml_format.js": {
+      "bytes": 400,
+      "imports": [
+        {
+          "path": "web_modules/common/caml_primitive-28678202.js"
+        },
+        {
+          "path": "web_modules/common/caml_format-7d058e3e.js"
+        }
+      ]
+    },
+    "web_modules/bs-css/src/Css_AtomicTypes.bs.js": {
+      "bytes": 2499,
+      "imports": [
+        {
+          "path": "web_modules/common/curry-e82ff6fb.js"
+        },
+        {
+          "path": "web_modules/common/caml_primitive-28678202.js"
+        },
+        {
+          "path": "web_modules/common/pervasives-9228bf61.js"
+        },
+        {
+          "path": "web_modules/common/caml_string-e1573ee8.js"
+        },
+        {
+          "path": "web_modules/common/caml_format-7d058e3e.js"
+        },
+        {
+          "path": "web_modules/common/caml_js_exceptions-03b0c096.js"
+        },
+        {
+          "path": "web_modules/common/caml_option-10599aa8.js"
+        },
+        {
+          "path": "web_modules/common/Css_AtomicTypes.bs-d7861922.js"
+        },
+        {
+          "path": "web_modules/common/string-07c5713c.js"
+        },
+        {
+          "path": "web_modules/common/belt_Array-3502e4d7.js"
+        },
+        {
+          "path": "web_modules/common/belt_SortArray-969915da.js"
+        },
+        {
+          "path": "web_modules/common/belt_List-6e946761.js"
+        }
+      ]
+    },
+    "web_modules/bs-platform/lib/es6/js_null.js": {
+      "bytes": 606,
+      "imports": [
+        {
+          "path": "web_modules/common/caml_option-10599aa8.js"
+        }
+      ]
+    },
+    "web_modules/common/dygraph-a06a9236.js": {
+      "bytes": 323604,
+      "imports": []
+    },
+    "web_modules/dygraphs.js": {
+      "bytes": 122,
+      "imports": [
+        {
+          "path": "web_modules/common/dygraph-a06a9236.js"
+        },
+        {
+          "path": "web_modules/common/dygraph-a06a9236.js"
+        }
+      ]
+    },
+    "web_modules/bs-css/src/Css_Legacy_Core.bs.js": {
+      "bytes": 8901,
+      "imports": [
+        {
+          "path": "web_modules/common/curry-e82ff6fb.js"
+        },
+        {
+          "path": "web_modules/common/caml_primitive-28678202.js"
+        },
+        {
+          "path": "web_modules/common/array-6289d183.js"
+        },
+        {
+          "path": "web_modules/common/pervasives-9228bf61.js"
+        },
+        {
+          "path": "web_modules/common/caml_string-e1573ee8.js"
+        },
+        {
+          "path": "web_modules/common/caml_format-7d058e3e.js"
+        },
+        {
+          "path": "web_modules/common/caml_js_exceptions-03b0c096.js"
+        },
+        {
+          "path": "web_modules/common/caml_option-10599aa8.js"
+        },
+        {
+          "path": "web_modules/common/Css_AtomicTypes.bs-d7861922.js"
+        },
+        {
+          "path": "web_modules/common/string-07c5713c.js"
+        },
+        {
+          "path": "web_modules/common/belt_Array-3502e4d7.js"
+        },
+        {
+          "path": "web_modules/common/belt_SortArray-969915da.js"
+        },
+        {
+          "path": "web_modules/common/belt_List-6e946761.js"
+        },
+        {
+          "path": "web_modules/common/js_dict-e527c3ef.js"
+        },
+        {
+          "path": "web_modules/common/Css_Legacy_Core.bs-9e354793.js"
+        },
+        {
+          "path": "web_modules/common/belt_Option-4aba43c8.js"
+        }
+      ]
+    },
+    "web_modules/dygraphs/src/extras/synchronizer.js": {
+      "bytes": 7261,
+      "imports": [
+        {
+          "path": "web_modules/common/dygraph-a06a9236.js"
+        },
+        {
+          "path": "web_modules/common/_commonjsHelpers-668e6127.js"
+        }
+      ]
+    },
+    "_dist_/LineGraph.bs.js": {
+      "bytes": 6646,
+      "imports": [
+        {
+          "path": "web_modules/bs-css-emotion/src/Css.bs.js"
+        },
+        {
+          "path": "web_modules/bs-platform/lib/es6/array.js"
+        },
+        {
+          "path": "web_modules/bs-platform/lib/es6/curry.js"
+        },
+        {
+          "path": "web_modules/react.js"
+        },
+        {
+          "path": "web_modules/bs-platform/lib/es6/js_null.js"
+        },
+        {
+          "path": "web_modules/dygraphs.js"
+        },
+        {
+          "path": "web_modules/bs-platform/lib/es6/belt_Array.js"
+        },
+        {
+          "path": "web_modules/bs-platform/lib/es6/belt_MapInt.js"
+        },
+        {
+          "path": "web_modules/bs-platform/lib/es6/belt_Option.js"
+        },
+        {
+          "path": "web_modules/bs-platform/lib/es6/caml_option.js"
+        },
+        {
+          "path": "web_modules/bs-css/src/Css_Legacy_Core.bs.js"
+        },
+        {
+          "path": "_dist_/Sx.bs.js"
+        },
+        {
+          "path": "web_modules/dygraphs/src/extras/synchronizer.js"
+        }
+      ]
+    },
+    "_dist_/Components.bs.js": {
+      "bytes": 59012,
+      "imports": [
+        {
+          "path": "web_modules/bs-css-emotion/src/Css.bs.js"
+        },
+        {
+          "path": "web_modules/bs-platform/lib/es6/array.js"
+        },
+        {
+          "path": "web_modules/bs-platform/lib/es6/curry.js"
+        },
+        {
+          "path": "web_modules/react.js"
+        },
+        {
+          "path": "web_modules/bs-platform/lib/es6/caml_format.js"
+        },
+        {
+          "path": "web_modules/bs-platform/lib/es6/caml_option.js"
+        },
+        {
+          "path": "web_modules/bs-css/src/Css_AtomicTypes.bs.js"
+        },
+        {
+          "path": "_dist_/Rx.bs.js"
+        },
+        {
+          "path": "_dist_/Sx.bs.js"
+        },
+        {
+          "path": "_dist_/Icon.bs.js"
+        },
+        {
+          "path": "_dist_/LineGraph.bs.js"
+        }
+      ]
+    },
+    "_dist_/Sidebar.bs.js": {
+      "bytes": 3087,
+      "imports": [
+        {
+          "path": "web_modules/bs-platform/lib/es6/curry.js"
+        },
+        {
+          "path": "web_modules/react.js"
+        },
+        {
+          "path": "_dist_/Rx.bs.js"
+        },
+        {
+          "path": "_dist_/Icon.bs.js"
+        },
+        {
+          "path": "_dist_/Styles.bs.js"
+        },
+        {
+          "path": "_dist_/Prelude.bs.js"
+        },
+        {
+          "path": "_dist_/Components.bs.js"
+        }
+      ]
+    },
+    "_dist_/JsHelpers.bs.js": {
+      "bytes": 345,
+      "imports": [
+        {
+          "path": "web_modules/bs-platform/lib/es6/js_dict.js"
+        },
+        {
+          "path": "web_modules/bs-platform/lib/es6/belt_MapString.js"
+        }
+      ]
+    },
+    "_dist_/BeltHelpers.bs.js": {
+      "bytes": 453,
+      "imports": [
+        {
+          "path": "web_modules/bs-platform/lib/es6/belt_MapString.js"
+        }
+      ]
+    },
+    "_dist_/JsonHelpers.bs.js": {
+      "bytes": 1038,
+      "imports": [
+        {
+          "path": "web_modules/bs-platform/lib/es6/js_dict.js"
+        },
+        {
+          "path": "web_modules/bs-platform/lib/es6/js_json.js"
+        },
+        {
+          "path": "web_modules/bs-platform/lib/es6/belt_Option.js"
+        }
+      ]
+    },
+    "_dist_/App.css": {
+      "bytes": 2101,
+      "imports": []
+    },
+    "_dist_/App.bs.js": {
+      "bytes": 15351,
+      "imports": [
+        {
+          "path": "web_modules/bs-platform/lib/es6/curry.js"
+        },
+        {
+          "path": "web_modules/react.js"
+        },
+        {
+          "path": "web_modules/bs-platform/lib/es6/string.js"
+        },
+        {
+          "path": "web_modules/bs-platform/lib/es6/js_dict.js"
+        },
+        {
+          "path": "web_modules/bs-platform/lib/es6/js_json.js"
+        },
+        {
+          "path": "web_modules/bs-platform/lib/es6/belt_List.js"
+        },
+        {
+          "path": "web_modules/bs-platform/lib/es6/belt_Array.js"
+        },
+        {
+          "path": "web_modules/bs-platform/lib/es6/pervasives.js"
+        },
+        {
+          "path": "web_modules/bs-platform/lib/es6/belt_MapInt.js"
+        },
+        {
+          "path": "web_modules/bs-platform/lib/es6/belt_Option.js"
+        },
+        {
+          "path": "web_modules/bs-platform/lib/es6/belt_SetInt.js"
+        },
+        {
+          "path": "web_modules/bs-platform/lib/es6/caml_option.js"
+        },
+        {
+          "path": "web_modules/bs-platform/lib/es6/belt_MapString.js"
+        },
+        {
+          "path": "web_modules/reason-urql/src/hooks/Hooks.bs.js"
+        },
+        {
+          "path": "web_modules/reason-react/src/ReasonReactRouter.bs.js"
+        },
+        {
+          "path": "_dist_/Rx.bs.js"
+        },
+        {
+          "path": "_dist_/Icon.bs.js"
+        },
+        {
+          "path": "_dist_/Styles.bs.js"
+        },
+        {
+          "path": "_dist_/Prelude.bs.js"
+        },
+        {
+          "path": "_dist_/Sidebar.bs.js"
+        },
+        {
+          "path": "_dist_/JsHelpers.bs.js"
+        },
+        {
+          "path": "_dist_/LineGraph.bs.js"
+        },
+        {
+          "path": "_dist_/Components.bs.js"
+        },
+        {
+          "path": "_dist_/BeltHelpers.bs.js"
+        },
+        {
+          "path": "_dist_/JsonHelpers.bs.js"
+        },
+        {
+          "path": "_dist_/App.css"
+        }
+      ]
+    },
+    "_dist_/index.bs.js": {
+      "bytes": 1269,
+      "imports": [
+        {
+          "path": "__snowpack__/env.js"
+        },
+        {
+          "path": "web_modules/urql.js"
+        },
+        {
+          "path": "web_modules/bs-fetch/src/Fetch.bs.js"
+        },
+        {
+          "path": "web_modules/react.js"
+        },
+        {
+          "path": "web_modules/reason-react/src/legacy/ReactDOMRe.bs.js"
+        },
+        {
+          "path": "web_modules/reason-urql/src/Client.bs.js"
+        },
+        {
+          "path": "_dist_/App.bs.js"
+        }
+      ]
+    }
+  },
+  "outputs": {
+    "../node_modules/.cache/snowpack/~~bundle~~/_dist_/index.bs.js": {
+      "imports": [],
+      "exports": [
+        "client",
+        "fetchOptions"
+      ],
+      "inputs": {
+        "__snowpack__/env.js": {
+          "bytesInOutput": 56
+        },
+        "web_modules/common/_commonjsHelpers-668e6127.js": {
+          "bytesInOutput": 231
+        },
+        "web_modules/common/index-4f86a9c5.js": {
+          "bytesInOutput": 6994
+        },
+        "web_modules/common/urql-core-2432c79a.js": {
+          "bytesInOutput": 59769
+        },
+        "web_modules/urql.js": {
+          "bytesInOutput": 0
+        },
+        "web_modules/common/urql.es-b6f946e0.js": {
+          "bytesInOutput": 2496
+        },
+        "web_modules/common/curry-e82ff6fb.js": {
+          "bytesInOutput": 2117
+        },
+        "web_modules/common/caml_option-10599aa8.js": {
+          "bytesInOutput": 393
+        },
+        "web_modules/bs-fetch/src/Fetch.bs.js": {
+          "bytesInOutput": 1637
+        },
+        "web_modules/react.js": {
+          "bytesInOutput": 487
+        },
+        "web_modules/reason-react/src/legacy/ReactDOMRe.bs.js": {
+          "bytesInOutput": 124383
+        },
+        "web_modules/common/belt_Option-4aba43c8.js": {
+          "bytesInOutput": 214
+        },
+        "web_modules/common/Types.bs-1e3b3c03.js": {
+          "bytesInOutput": 498
+        },
+        "web_modules/reason-urql/src/Client.bs.js": {
+          "bytesInOutput": 366
+        },
+        "web_modules/bs-platform/lib/es6/curry.js": {
+          "bytesInOutput": 0
+        },
+        "web_modules/common/caml_primitive-28678202.js": {
+          "bytesInOutput": 32
+        },
+        "web_modules/common/caml_string-e1573ee8.js": {
+          "bytesInOutput": 869
+        },
+        "web_modules/common/caml_js_exceptions-03b0c096.js": {
+          "bytesInOutput": 127
+        },
+        "web_modules/common/string-07c5713c.js": {
+          "bytesInOutput": 563
+        },
+        "web_modules/bs-platform/lib/es6/string.js": {
+          "bytesInOutput": 0
+        },
+        "web_modules/common/js_dict-e527c3ef.js": {
+          "bytesInOutput": 255
+        },
+        "web_modules/bs-platform/lib/es6/js_dict.js": {
+          "bytesInOutput": 0
+        },
+        "web_modules/bs-platform/lib/es6/js_json.js": {
+          "bytesInOutput": 469
+        },
+        "web_modules/common/belt_Array-3502e4d7.js": {
+          "bytesInOutput": 801
+        },
+        "web_modules/common/belt_SortArray-969915da.js": {
+          "bytesInOutput": 336
+        },
+        "web_modules/common/belt_List-6e946761.js": {
+          "bytesInOutput": 610
+        },
+        "web_modules/bs-platform/lib/es6/belt_List.js": {
+          "bytesInOutput": 0
+        },
+        "web_modules/bs-platform/lib/es6/belt_Array.js": {
+          "bytesInOutput": 0
+        },
+        "web_modules/common/pervasives-9228bf61.js": {
+          "bytesInOutput": 666
+        },
+        "web_modules/bs-platform/lib/es6/pervasives.js": {
+          "bytesInOutput": 0
+        },
+        "web_modules/common/belt_internalAVLtree-604a4135.js": {
+          "bytesInOutput": 2918
+        },
+        "web_modules/bs-platform/lib/es6/belt_MapInt.js": {
+          "bytesInOutput": 435
+        },
+        "web_modules/bs-platform/lib/es6/belt_Option.js": {
+          "bytesInOutput": 0
+        },
+        "web_modules/bs-platform/lib/es6/belt_SetInt.js": {
+          "bytesInOutput": 823
+        },
+        "web_modules/bs-platform/lib/es6/caml_option.js": {
+          "bytesInOutput": 0
+        },
+        "web_modules/bs-platform/lib/es6/belt_MapString.js": {
+          "bytesInOutput": 844
+        },
+        "web_modules/reason-urql/src/hooks/Hooks.bs.js": {
+          "bytesInOutput": 1134
+        },
+        "web_modules/reason-react/src/ReasonReactRouter.bs.js": {
+          "bytesInOutput": 1450
+        },
+        "web_modules/common/array-6289d183.js": {
+          "bytesInOutput": 680
+        },
+        "web_modules/bs-platform/lib/es6/array.js": {
+          "bytesInOutput": 0
+        },
+        "_dist_/Rx.bs.js": {
+          "bytesInOutput": 198
+        },
+        "web_modules/common/Css_AtomicTypes.bs-d7861922.js": {
+          "bytesInOutput": 15870
+        },
+        "web_modules/common/Css_Legacy_Core.bs-9e354793.js": {
+          "bytesInOutput": 14094
+        },
+        "web_modules/bs-css-emotion/src/Css.bs.js": {
+          "bytesInOutput": 19370
+        },
+        "_dist_/Sx.bs.js": {
+          "bytesInOutput": 27378
+        },
+        "_dist_/Icon.bs.js": {
+          "bytesInOutput": 19639
+        },
+        "_dist_/Styles.bs.js": {
+          "bytesInOutput": 246
+        },
+        "_dist_/Prelude.bs.js": {
+          "bytesInOutput": 183
+        },
+        "web_modules/bs-platform/lib/es6/caml_format.js": {
+          "bytesInOutput": 0
+        },
+        "web_modules/bs-css/src/Css_AtomicTypes.bs.js": {
+          "bytesInOutput": 0
+        },
+        "web_modules/bs-platform/lib/es6/js_null.js": {
+          "bytesInOutput": 43
+        },
+        "web_modules/common/dygraph-a06a9236.js": {
+          "bytesInOutput": 110345
+        },
+        "web_modules/dygraphs.js": {
+          "bytesInOutput": 0
+        },
+        "web_modules/bs-css/src/Css_Legacy_Core.bs.js": {
+          "bytesInOutput": 0
+        },
+        "web_modules/dygraphs/src/extras/synchronizer.js": {
+          "bytesInOutput": 2950
+        },
+        "_dist_/LineGraph.bs.js": {
+          "bytesInOutput": 2165
+        },
+        "_dist_/Components.bs.js": {
+          "bytesInOutput": 15653
+        },
+        "_dist_/Sidebar.bs.js": {
+          "bytesInOutput": 835
+        },
+        "_dist_/JsHelpers.bs.js": {
+          "bytesInOutput": 32
+        },
+        "_dist_/BeltHelpers.bs.js": {
+          "bytesInOutput": 113
+        },
+        "_dist_/JsonHelpers.bs.js": {
+          "bytesInOutput": 200
+        },
+        "_dist_/App.css": {
+          "bytesInOutput": 0
+        },
+        "_dist_/App.bs.js": {
+          "bytesInOutput": 4030
+        },
+        "_dist_/index.bs.js": {
+          "bytesInOutput": 347
+        }
+      },
+      "bytes": 447286
+    },
+    "../node_modules/.cache/snowpack/~~bundle~~/_dist_/index.bs.css": {
+      "imports": [],
+      "inputs": {
+        "_dist_/App.css": {
+          "bytesInOutput": 1292
+        }
+      },
+      "bytes": 1293
+    }
+  }
+}
